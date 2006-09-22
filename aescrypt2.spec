@@ -7,6 +7,7 @@ License:	GPL
 Group:		Applications
 Source0:	http://www.cr0.net:8040/code/crypto/aes/%{name}-%{version}.tgz
 # Source0-md5:	90db12e9fa66a43935201da33195a6b9
+Patch0:		%{name}-CFLAGS.patch
 URL:		http://www.cr0.net:8040/code/crypto/aes/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -24,10 +25,11 @@ uniksów oraz Win32), a tak¿e prostym w u¿yciu.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 %{__make} \
-	CC="%{__cc}"
+	CC="%{__cc}" CFLAGS="%{rpmcflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
