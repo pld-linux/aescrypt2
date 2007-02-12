@@ -1,5 +1,5 @@
 Summary:	Command line file encryption program that relies on AES-CBC-256
-Summary(pl.UTF-8):   Program szyfrujący pliki z linii poleceń używający AES-CBC-256
+Summary(pl.UTF-8):	Program szyfrujący pliki z linii poleceń używający AES-CBC-256
 Name:		aescrypt2
 Version:	1.0
 Release:	1
