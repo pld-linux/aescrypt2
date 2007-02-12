@@ -1,5 +1,5 @@
 Summary:	Command line file encryption program that relies on AES-CBC-256
-Summary(pl):	Program szyfruj±cy pliki z linii poleceÒ uøywaj±cy AES-CBC-256
+Summary(pl.UTF-8):   Program szyfrujƒÖcy pliki z linii polece≈Ñ u≈ºywajƒÖcy AES-CBC-256
 Name:		aescrypt2
 Version:	1.0
 Release:	1
@@ -17,11 +17,11 @@ AES-CBC-256 plus HMAC-SHA256. It has been designed to be portable
 (works on all Unix flavors and Win32) as well as very straightforward
 to use.
 
-%description -l pl
-aescrypt2 to dzia≥aj±cy z linii poleceÒ program do szyfrowania plikÛw
-uøywaj±cy algorytmu AES-CBC-256 oraz HMAC-SHA256. Zosta≥
-zaprojektowany tak, aby byÊ przeno∂nym (dzia≥a na wszystkich rodzajach
-uniksÛw oraz Win32), a takøe prostym w uøyciu.
+%description -l pl.UTF-8
+aescrypt2 to dzia≈ÇajƒÖcy z linii polece≈Ñ program do szyfrowania plik√≥w
+u≈ºywajƒÖcy algorytmu AES-CBC-256 oraz HMAC-SHA256. Zosta≈Ç
+zaprojektowany tak, aby byƒá przeno≈õnym (dzia≈Ça na wszystkich rodzajach
+uniks√≥w oraz Win32), a tak≈ºe prostym w u≈ºyciu.
 
 %prep
 %setup -q
