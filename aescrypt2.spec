@@ -25,7 +25,7 @@ uniksów oraz Win32), a także prostym w użyciu.
 
 %prep
 %setup -q
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %{__make} \
